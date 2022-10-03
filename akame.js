@@ -26,6 +26,7 @@ const speed = require('performance-now')
 const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
+const sumifoter = Sumi Store © 2022
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins, generateProfilePicture } = require('./lib/myfunc')
 
 // read database
@@ -1334,6 +1335,36 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
             }
             break
+            case "mobilelegends":
+         {
+           anu = `ML FAST VIA ID AND SERVER
+86 💎 Rp18.655
+172 💎 Rp37.310
+257 💎 Rp55.900
+344 💎 Rp74.620
+429 💎 Rp93.275
+514 💎 Rp111.930
+600 💎 Rp130.585
+706 💎 Rp149.240
+878 💎 Rp186.550
+963 💎 Rp205.205
+1050 💎 Rp223.860
+1220 💎 Rp261.170
+1412 💎 Rp298.480
+2195 💎 Rp443.415
+`;
+           let btn = [
+           ];
+           akame.send5ButImg(
+             m.chat,
+             anu,
+             sumifoter,
+             global.thumb,
+             btn,
+             global.thumb
+           );
+         }
+         break;
             case 'family100': {
                 if ('family100' + m.chat in _family100) {
                     m.reply('Masih Ada Sesi Yang Belum Diselesaikan!')
